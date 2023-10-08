@@ -1,0 +1,17 @@
+Certainly, here's a brief overview of your MERN (MongoDB, Express.js, React, Node.js) application:
+
+**Project Name**: MERN Vehicle Management App
+
+**Overview**:
+The MERN Vehicle Management App is a web application that allows users to register, log in, and manage their vehicle information. It leverages the MERN stack to provide a seamless user experience. Users can create accounts, log in securely, and add, edit, or delete vehicle information from the home page. Bootstrap and Material-UI are used for the frontend design, and Node.js with MongoDB handles the backend.
+
+**Key Features**:
+- User Registration: Users can create accounts by providing their details.
+- User Authentication: Secure user authentication with login and logout functionality.
+- Vehicle Management: Users can add, view, edit, and delete vehicle information.
+- Frontend Design: Combines the styling power of Bootstrap and Material-UI for an appealing user interface.
+- Backend: Node.js and MongoDB handle the backend server and database operations.
+
+The app provides a user-friendly way to manage vehicle information, making it easy for users to keep track of their vehicles.
+
+For detailed instructions on installation, usage, and other aspects of the app, please refer to the project documentation.
