@@ -1,0 +1,45 @@
+.removeImageButton {
+  cursor: pointer;
+  z-index: 1;
+
+  height: 10px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  position: relative;
+  bottom: 54px;
+
+  left: 33px;
+  color: rgb(46, 41, 41);
+  padding: 0;
+
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.selectedImageWrapper:hover .removeImageButton {
+  opacity: 1;
+}
+
+.selectedImageAddsDetailes {
+  border: 2px solid #6ee7b7;
+  transition: filter 0.3s;
+  position: relative;
+}
+
+.selectedImageWrapper:hover .selectedImageAddsDetailes {
+  filter: blur(4px);
+}
+
+.selectedImageWrapper {
+  position: relative;
+}
+
+.selectedImageWrapper .removeImageButton:hover {
+  opacity: 1;
+}
